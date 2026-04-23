@@ -2,8 +2,12 @@ body{--color-fade-speed:0.2s}.tree-icon{border:1px solid transparent;margin:0 4p
 #outline{display:none!important;}
 
 #left-sidebar{display:none!important;}
-#main-horizontal{grid-template-columns:0 1fr var(--sidebar-width)!important;}
 
 #right-sidebar{--sidebar-width:min(42rem,48vw)!important;}
 .graph-view-container,.graph-view-placeholder{min-height:70vh!important;}
 #graph-canvas{width:100%!important;height:70vh!important;}
+
+#left-sidebar{display:none!important;min-width:0!important;width:0!important;}
+#center-content{margin-left:0!important;}
+#main-horizontal{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(24rem,48vw)!important;}
+#right-sidebar{width:auto!important;min-width:24rem!important;}
