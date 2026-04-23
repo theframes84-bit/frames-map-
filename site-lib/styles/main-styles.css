@@ -19,3 +19,8 @@ body{--color-fade-speed:0.2s}.tree-icon{border:1px solid transparent;margin:0 4p
 .graph-view-wrapper,.graph-view-placeholder,.graph-view-container{height:100vh!important;min-height:100vh!important;}
 #graph-canvas{width:100vw!important;height:100vh!important;}
 .sidebar .topbar,.sidebar-content-icon{display:none!important;}
+
+
+.graph-zoom-controls{position:fixed;right:16px;bottom:16px;z-index:9999;display:flex;flex-direction:column;gap:10px;}
+.graph-zoom-controls button{width:48px;height:48px;border:none;border-radius:999px;background:rgba(20,20,24,.88);color:#fff;font-size:24px;font-weight:700;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.28);}
+.graph-zoom-controls button:hover{background:rgba(40,40,48,.95);}
