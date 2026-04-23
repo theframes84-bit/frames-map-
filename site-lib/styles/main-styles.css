@@ -26,5 +26,3 @@ body{--color-fade-speed:0.2s}.tree-icon{border:1px solid transparent;margin:0 4p
 .graph-zoom-controls button:hover{background:rgba(40,40,48,.95);}
 
 
-.graph-home-link{position:fixed;left:max(72px,calc(env(safe-area-inset-left) + 72px));top:max(16px,calc(env(safe-area-inset-top) + 16px));z-index:9999;width:44px;height:44px;border-radius:999px;background:rgba(20,20,24,.88);color:#fff;text-decoration:none;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:700;box-shadow:0 6px 18px rgba(0,0,0,.28);}
-.graph-home-link:hover{background:rgba(40,40,48,.95);}
