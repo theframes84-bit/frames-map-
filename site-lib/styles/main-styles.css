@@ -9,3 +9,5 @@ body{--color-fade-speed:0.2s}.tree-icon{border:1px solid transparent;margin:0 4p
 #right-sidebar{--sidebar-width:min(42rem,48vw)!important;}
 .graph-view-container,.graph-view-placeholder{min-height:70vh!important;}
 #graph-canvas{width:100%!important;height:70vh!important;}
+
+#left-sidebar,.left-sidebar,.sidebar.left-sidebar{display:none!important;visibility:hidden!important;}
