@@ -11,3 +11,11 @@ body{--color-fade-speed:0.2s}.tree-icon{border:1px solid transparent;margin:0 4p
 #graph-canvas{width:100%!important;height:70vh!important;}
 
 #left-sidebar,.left-sidebar,.sidebar.left-sidebar{display:none!important;visibility:hidden!important;}
+
+
+.obsidian-document,.document-container,#center-content{display:none!important;}
+#right-sidebar{position:fixed!important;inset:0!important;width:100vw!important;max-width:none!important;--sidebar-width:100vw!important;z-index:10;}
+#right-sidebar .sidebar-content-wrapper,#right-sidebar-content{height:100vh!important;max-height:100vh!important;}
+.graph-view-wrapper,.graph-view-placeholder,.graph-view-container{height:100vh!important;min-height:100vh!important;}
+#graph-canvas{width:100vw!important;height:100vh!important;}
+.sidebar .topbar,.sidebar-content-icon{display:none!important;}
