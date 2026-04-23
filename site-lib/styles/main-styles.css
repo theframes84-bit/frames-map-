@@ -24,3 +24,7 @@ body{--color-fade-speed:0.2s}.tree-icon{border:1px solid transparent;margin:0 4p
 .graph-zoom-controls{position:fixed;right:max(20px,calc(env(safe-area-inset-right) + 20px));bottom:max(28px,calc(env(safe-area-inset-bottom) + 28px));z-index:9999;display:flex;flex-direction:column;gap:10px;padding:6px;}
 .graph-zoom-controls button{width:clamp(42px,10vw,48px);height:clamp(42px,10vw,48px);border:none;border-radius:999px;background:rgba(20,20,24,.88);color:#fff;font-size:clamp(20px,4.8vw,24px);font-weight:700;line-height:1;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.28);display:flex;align-items:center;justify-content:center;}
 .graph-zoom-controls button:hover{background:rgba(40,40,48,.95);}
+
+
+.graph-home-link{position:fixed;left:max(16px,calc(env(safe-area-inset-left) + 16px));top:max(16px,calc(env(safe-area-inset-top) + 16px));z-index:9999;width:48px;height:48px;border-radius:999px;background:rgba(20,20,24,.88);color:#fff;text-decoration:none;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:700;box-shadow:0 6px 18px rgba(0,0,0,.28);}
+.graph-home-link:hover{background:rgba(40,40,48,.95);}
