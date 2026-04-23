@@ -26,3 +26,5 @@ body{--color-fade-speed:0.2s}.tree-icon{border:1px solid transparent;margin:0 4p
 .graph-zoom-controls button:hover{background:rgba(40,40,48,.95);}
 
 
+
+#right-sidebar .topbar, #right-sidebar .topbar-content, #right-sidebar .sidebar-content-icon, #right-sidebar .sidebar-content-icon.clickable-icon{display:none!important;}
