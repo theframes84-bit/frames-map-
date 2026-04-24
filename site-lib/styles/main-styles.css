@@ -16,6 +16,7 @@ body{--color-fade-speed:0.2s}.tree-icon{border:1px solid transparent;margin:0 4p
 #right-sidebar{position:fixed!important;inset:0!important;width:100vw!important;max-width:none!important;--sidebar-width:100vw!important;z-index:10;background:var(--background-primary)!important;}
 #right-sidebar .sidebar-content-wrapper,#right-sidebar-content{height:100vh!important;max-height:100vh!important;overflow:hidden!important;}
 #right-sidebar .feature-header,
+#right-sidebar .sidebar-header,
 #right-sidebar .topbar,
 #right-sidebar .topbar-content,
 #right-sidebar .sidebar-content-icon,
