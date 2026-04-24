@@ -30,4 +30,4 @@ body{--color-fade-speed:0.2s}.tree-icon{border:1px solid transparent;margin:0 4p
 #right-sidebar .topbar, #right-sidebar .topbar-content, #right-sidebar .sidebar-content-icon, #right-sidebar .sidebar-content-icon.clickable-icon{display:none!important;}
 
 
-.graph-desktop-note{position:fixed;left:50%;bottom:max(14px,calc(env(safe-area-inset-bottom) + 14px));transform:translateX(-50%);z-index:9998;max-width:min(92vw,720px);padding:10px 14px;border-radius:999px;background:rgba(20,20,24,.84);color:rgba(255,255,255,.86);font-size:12px;line-height:1.4;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,.24);backdrop-filter:blur(6px);}
+.graph-desktop-note{position:fixed;left:50%;top:max(14px,calc(env(safe-area-inset-top) + 14px));transform:translateX(-50%);z-index:9998;max-width:min(92vw,720px);padding:10px 14px;border-radius:999px;background:rgba(20,20,24,.84);color:rgba(255,255,255,.86);font-size:12px;line-height:1.4;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,.24);backdrop-filter:blur(6px);}
