@@ -12,22 +12,24 @@ body{--color-fade-speed:0.2s}.tree-icon{border:1px solid transparent;margin:0 4p
 
 #left-sidebar,.left-sidebar,.sidebar.left-sidebar{display:none!important;visibility:hidden!important;}
 
-
 .obsidian-document,.document-container,#center-content{display:none!important;}
-#right-sidebar{position:fixed!important;inset:0!important;width:100vw!important;max-width:none!important;--sidebar-width:100vw!important;z-index:10;}
-#right-sidebar .sidebar-content-wrapper,#right-sidebar-content{height:100vh!important;max-height:100vh!important;}
-.graph-view-wrapper,.graph-view-placeholder,.graph-view-container{height:100vh!important;min-height:100vh!important;}
-#graph-canvas{width:100vw!important;height:100vh!important;}
-.sidebar .topbar,.sidebar-content-icon{display:none!important;}
+#right-sidebar{position:fixed!important;inset:0!important;width:100vw!important;max-width:none!important;--sidebar-width:100vw!important;z-index:10;background:var(--background-primary)!important;}
+#right-sidebar .sidebar-content-wrapper,#right-sidebar-content{height:100vh!important;max-height:100vh!important;overflow:hidden!important;}
+#right-sidebar .feature-header,
+#right-sidebar .topbar,
+#right-sidebar .topbar-content,
+#right-sidebar .sidebar-content-icon,
+#right-sidebar .sidebar-content-icon.clickable-icon,
+.sidebar .topbar,
+.sidebar-content-icon{display:none!important;}
 
+.graph-view-wrapper{height:100vh!important;min-height:100vh!important;padding:0!important;margin:0!important;display:flex!important;align-items:stretch!important;justify-content:stretch!important;}
+.graph-view-placeholder,
+.graph-view-container{height:100vh!important;min-height:100vh!important;max-height:100vh!important;padding:0!important;margin:0!important;border:none!important;border-radius:0!important;background:transparent!important;}
+#graph-canvas{display:block!important;width:100vw!important;height:100vh!important;max-height:100vh!important;}
 
-.graph-zoom-controls{position:fixed;right:max(20px,calc(env(safe-area-inset-right) + 20px));bottom:max(28px,calc(env(safe-area-inset-bottom) + 28px));z-index:9999;display:flex;flex-direction:column;gap:10px;padding:6px;}
-.graph-zoom-controls button{width:clamp(42px,10vw,48px);height:clamp(42px,10vw,48px);border:none;border-radius:999px;background:rgba(20,20,24,.88);color:#fff;font-size:clamp(20px,4.8vw,24px);font-weight:700;line-height:1;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.28);display:flex;align-items:center;justify-content:center;}
-.graph-zoom-controls button:hover{background:rgba(40,40,48,.95);}
+.graph-zoom-controls{position:fixed;right:max(16px,calc(env(safe-area-inset-right) + 16px));bottom:max(16px,calc(env(safe-area-inset-bottom) + 16px));z-index:9999;display:flex;flex-direction:column;gap:8px;padding:4px;}
+.graph-zoom-controls button{width:clamp(40px,9vw,46px);height:clamp(40px,9vw,46px);border:none;border-radius:999px;background:rgba(20,20,24,.82);color:#fff;font-size:clamp(20px,4.5vw,24px);font-weight:700;line-height:1;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.24);display:flex;align-items:center;justify-content:center;}
+.graph-zoom-controls button:hover{background:rgba(40,40,48,.92);}
 
-
-
-#right-sidebar .topbar, #right-sidebar .topbar-content, #right-sidebar .sidebar-content-icon, #right-sidebar .sidebar-content-icon.clickable-icon{display:none!important;}
-
-
-.graph-desktop-note{position:fixed;right:max(14px,calc(env(safe-area-inset-right) + 14px));top:max(14px,calc(env(safe-area-inset-top) + 14px));z-index:9998;max-width:min(68vw,520px);padding:10px 14px;border-radius:16px;background:rgba(20,20,24,.84);color:rgba(255,255,255,.86);font-size:12px;line-height:1.4;text-align:left;box-shadow:0 6px 18px rgba(0,0,0,.24);backdrop-filter:blur(6px);}
+.graph-desktop-note{position:fixed;left:max(14px,calc(env(safe-area-inset-left) + 14px));right:max(72px,calc(env(safe-area-inset-right) + 72px));bottom:max(14px,calc(env(safe-area-inset-bottom) + 14px));z-index:9998;max-width:min(72vw,620px);padding:8px 12px;border-radius:14px;background:rgba(20,20,24,.72);color:rgba(255,255,255,.82);font-size:11px;line-height:1.35;text-align:left;box-shadow:0 6px 18px rgba(0,0,0,.18);backdrop-filter:blur(6px);}
